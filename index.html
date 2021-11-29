@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Super Glass </title>
+</head>
+<body>
+    <div class="container">    
+      <div class="card">
+        <div class="content">
+          <h2>Tvexpress</h2>
+          <h3> 30 dias </h3>
+          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, provident. Quisquam, beatae. Animi ad maxime tempore earum asperiores, assumenda illo itaque voluptas placeat, dicta ut dolorem quis, sapiente odit hic!</p>
+          <a href="#">Comprar</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="content">
+          <h2>Uni-tv</h2>
+          <h3> 30 dias </h3>
+          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, provident. Quisquam, beatae. Animi ad maxime tempore earum asperiores, assumenda illo itaque voluptas placeat, dicta ut dolorem quis, sapiente odit hic!</p>
+          <a href="#"> Comprar </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="content">
+          <h2>My family</h2>
+          <h3> 30 dias </h3>
+          <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, provident. Quisquam, beatae. Animi ad maxime tempore earum asperiores, assumenda illo itaque voluptas placeat, dicta ut dolorem quis, sapiente odit hic!</p>
+          <a href="#"> Comprar </a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".card"),{
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 1,
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".your-element"));
+</script>
+
+</body>
+</html>
